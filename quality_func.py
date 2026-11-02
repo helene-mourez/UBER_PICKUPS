@@ -1,7 +1,7 @@
 import pandas as pd
 
 def load_zone_data():
-    zone = pd.read_csv('data/uber-trip-data/uber-raw-data-apr14.csv')
+    zone = pd.read_csv('/Users/nicolasbour/Desktop/Projets_IA/Projets_certif/bloc_03_Machine_Learning/UBER_PICKUPS/data/taxi-zone-lookup.csv')
     print('Set with labels :', zone.shape)
     return zone
 
